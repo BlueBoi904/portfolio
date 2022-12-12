@@ -1,24 +1,44 @@
 ---
-title: Next.js Pages
-date: 2022/12/08
-description: Learn more about Next.js pages.
-tag: web development, next.js, javascript
+title: Python Iterators
+date: 2022/12/12
+description: Learn more about how to properly use built-in python iterator functions.
+tag: web development, python, coding, iterators
 author: Cliff Mirschel
 ---
 
-# Next.js Pages
+# Python Iterators
 
-In Next.js, a **page** is a [React Component](https://reactjs.org/docs/components-and-props.html) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. Each page is associated with a route based on its file name.
+## #1) Avoid using For Loops in Python
 
-**Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
+Although the use of for loops in Python is a very common practice, there are many advantages to utilizing Python's built in methods when iterating over a data set.
+
+While using a basic for-in loop in Python might have advantages in certain situations, typically that syntax can easily be replaced with faster, cleaner, and more reliable code. 
+
+Lets take a look at the most common for loop syntax in Python, then we will optimize the code using built-in methods.
+
 
 ```
-function About() {
-  return <div>About</div>
-}
+numbers = [1,2,3,4]
+result = 0
 
-export default About
+for num in numbers:
+    result += num
+
+print(result)
 ```
+
+Using the built-in sum() method in python, we can pass in any iterable and a starting index (optional), and python will sum all of the elements in the iterable.
+
+> Remember, the sum() method will accept any iterable as the first parameter, and an (optional) start index as the second parameter.
+```
+# Optimized solution using sum() => sum(iterable, start(optional))
+
+numbers = [1,2,3,4]
+result = sum(numbers)
+
+print(result)
+```
+
 
 ### Pages with Dynamic Routes
 
