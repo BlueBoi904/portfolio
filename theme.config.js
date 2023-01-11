@@ -4,7 +4,7 @@ export default {
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Cliff Mirschel.
-      <a href="/feed.xml">RSS</a>
+      <a href="https://www.linkedin.com/in/cliff-mirschel/">linkedin</a>
       <style jsx>{`
         a {
           float: right;
