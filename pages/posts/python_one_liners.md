@@ -1,7 +1,7 @@
 ---
-title: 5 Powerful Python One-Liners
+title: 5 Powerful Python One-Liners 
 date: 2023/03/03
-description: Learn some of the most common and powerful Python One-Liners.
+description: Learn some of the most common and powerful Python One-Liners. 
 tag: web development, python, coding, programming
 author: Cliff Mirschel
 ---

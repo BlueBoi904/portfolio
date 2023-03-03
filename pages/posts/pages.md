@@ -1,7 +1,7 @@
 ---
-title: Next.js Pages
+title: Next.js Pages 
 date: 2022/12/08
-description: Learn more about Next.js pages.
+description: Learn more about Next.js pages. 
 tag: web development, next.js, javascript
 author: Cliff Mirschel
 ---

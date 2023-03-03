@@ -1,7 +1,7 @@
 ---
-title: Markdown Examples
+title: Markdown Examples 
 date: 2022/12/08
-description: View examples of all possible Markdown options.
+description: View examples of all possible Markdown options. 
 tag: web development, markdown, mdx
 author: Cliff Mirschel
 ---
