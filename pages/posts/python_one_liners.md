@@ -98,6 +98,8 @@ This will return a bool which will determine if the input phrase is a palindrome
 
 # Bonus One-Liner (Swap two variables):
 
+Syntax to swap two variables in Python:
+
 ```
 a,b = b,a 
 ```
