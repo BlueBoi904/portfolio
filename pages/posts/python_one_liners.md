@@ -98,7 +98,9 @@ This will return a bool which will determine if the input phrase is a palindrome
 
 # Bonus One-Liner (Swap two variables):
 
-```a,b = b,a ```
+```
+a,b = b,a 
+```
 
 
 Thanks for reading, 
