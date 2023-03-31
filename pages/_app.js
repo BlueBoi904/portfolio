@@ -7,7 +7,6 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
-
         <link
           rel="preload"
           href="/fonts/Inter-roman.latin.var.woff2"
