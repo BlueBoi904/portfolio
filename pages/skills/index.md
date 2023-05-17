@@ -1,10 +1,10 @@
 ---
 type: page
-title: About
-date: 2022/12/08
+title: Background
+date: 2021-03-18
 ---
 
-# Clifford Mirschel
+# My Background
 
 Hi, my name is Cliff. I'm a Senior Software Engineer with over 5 years of professional experience in developing high-trafficked web and mobile apps at scale.
 
@@ -15,4 +15,4 @@ I'f you'd like to learn a little more about my background, please check out the 
 
 - GitHub: [blueboi904](https://github.com/blueboi904)
 - Linkedin: [in/cliff-mirschel](https://www.linkedin.com/in/cliff-mirschel/)
-- Email: cliffordmirschel@gmail.com
+- Email: clifford.mirschel@gmail.com
