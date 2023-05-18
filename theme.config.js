@@ -1,6 +1,5 @@
 const YEAR = new Date().getFullYear()
-import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import { DiGithubAlt } from 'react-icons/di';
+import { FaLinkedin, FaEnvelope, FaGithubAlt } from 'react-icons/fa';
 import copy from "copy-to-clipboard";
 
 function copy_text() {
@@ -9,27 +8,20 @@ function copy_text() {
 export default {
 
   footer:
-    <div className='footer'>
+    <div>
       <small style={{ display: 'block', marginTop: '8rem' }}>
         <time>{YEAR}</time> © Cliff Mirschel.
-
 
         <a href="https://mail.google.com/mail" onclick={copy_text} target="_blank"><FaEnvelope /></a>
 
         <a href="https://www.linkedin.com/in/cliff-mirschel/" target="_blank"><FaLinkedin /></a>
 
-        <a href="https://github.com/BlueBoi904" target="_blank"><DiGithubAlt /></a>
-
+        <a href="https://github.com/BlueBoi904" target="_blank"><FaGithubAlt /></a>
         <style jsx>{`
         a {
           float: right;
           padding-right: .25rem;
           padding-left: .25rem;
-        }
-        .footer{
-          display: flex;
-          align-items: center;
-          float: right;
         }
         @media screen and (max-width: 480px) {
           article {
