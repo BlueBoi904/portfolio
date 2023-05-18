@@ -14,11 +14,12 @@ export default {
         <time>{YEAR}</time> © Cliff Mirschel.
 
 
-        <a href="https://github.com/BlueBoi904" target="_blank"><DiGithubAlt /></a>
+        <a href="https://mail.google.com/mail" onclick={copy_text} target="_blank"><FaEnvelope /></a>
 
         <a href="https://www.linkedin.com/in/cliff-mirschel/" target="_blank"><FaLinkedin /></a>
 
-        <a href="https://mail.google.com/mail" onclick={copy_text} target="_blank"><FaEnvelope /></a>
+        <a href="https://github.com/BlueBoi904" target="_blank"><DiGithubAlt /></a>
+
         <style jsx>{`
         a {
           float: right;
