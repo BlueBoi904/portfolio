@@ -34,6 +34,3 @@ export default {
     </div>
 
 }
-//  - GitHub: [blueboi904](https://github.com/blueboi904) <DiGithubAlt />
-//  - Linkedin: [in/cliff-mirschel](https://www.linkedin.com/in/cliff-mirschel/) <FaLinkedin />
-//  - Email: cliffordmirschel@gmail.com <FaEnvelope />
