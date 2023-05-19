@@ -10,7 +10,7 @@ export default {
   footer:
     <div>
       <small style={{ display: 'block', marginTop: '8rem' }}>
-        <time>{YEAR}</time> © Cliff Mirschel.
+        <time>{YEAR}</time> © Clifford Mirschel.
 
         <a href="https://mail.google.com/mail" onclick={copy_text} target="_blank"><FaEnvelope /></a>
 

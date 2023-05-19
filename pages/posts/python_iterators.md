@@ -3,7 +3,7 @@ title: Python Iterators
 date: 2022/12/12
 description: Learn how to properly use Python's built-in methods to handle iterators. 
 tag: web development, python, coding, iterators
-author: Cliff Mirschel
+author: Clifford Mirschel
 ---
 
 # Python Iterators
